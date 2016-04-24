@@ -239,7 +239,7 @@ export default Ember.Component.extend({
 
   didRender() {
     this._super(...arguments);
-    this.$('.item-list').scrollTop(this.$('.selected-item').position.top);
+    this.$('.list-item').scrollTop(this.$('.selected-item').position.top);
   }
 });
 ```
